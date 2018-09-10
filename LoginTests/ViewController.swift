@@ -8,10 +8,11 @@
 
 import UIKit
 
+var userNumber = [Int]()
+
 class ViewController: UIViewController {
 
     //UserNumber
-    var userNumber = [Int]()
     
     //login
     @IBOutlet weak var TestingLabel: UILabel!
@@ -148,10 +149,10 @@ class ViewController: UIViewController {
         Password.text = ""
         
         //problem here
-        if userNumber.contains(62) && userNumber.contains(56) {
-            print("Login successful!")
+        if userNumber.contains(passwordNumber) && userNumber.contains(passwordNumber) {
+            TestingLabel.text = "Login successful!"
         } else {
-            print("Username or Password is invalid")
+            TestingLabel.text = "Username or Password is invalid"
         }
     }
     
