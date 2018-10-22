@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             } else if letter == "b" {
                 numberEncypt += 2
             } else if letter == "c" {
-                numberEncypt += 3
+                numberEncypt += 37
             } else if letter == "d" {
                 numberEncypt += 4
             } else if letter == "e" {
